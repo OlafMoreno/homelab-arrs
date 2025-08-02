@@ -64,7 +64,7 @@ services:
     restart: unless-stopped
     env_file:
       - '.env'
-      
+
 # ██╗     ██╗██████╗  █████╗ ██████╗ ██████╗ 
 # ██║     ██║██╔══██╗██╔══██╗██╔══██╗██╔══██╗
 # ██║     ██║██║  ██║███████║██████╔╝██████╔╝
@@ -93,18 +93,18 @@ services:
 # ██║  ██║╚██████╔╝██║ ╚═╝ ██║██║  ██║██║  ██║██║  ██║
 # ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
         
-  homarr:
-    container_name: homarr
-    image: ghcr.io/ajnart/homarr:latest
-    restart: unless-stopped
-    volumes:
-      - ${ARRPATH}Homarr/configs:/app/data/configs
-      - ${ARRPATH}Homarr/icons:/app/public/icons
-      - ${ARRPATH}Homarr/data:/data
-    ports:
-      - '7575:7575'
-    env_file:
-      - '.env'
+  # homarr:
+  #   container_name: homarr
+  #   image: ghcr.io/ajnart/homarr:latest
+  #   restart: unless-stopped
+  #   volumes:
+  #     - ${ARRPATH}Homarr/configs:/app/data/configs
+  #     - ${ARRPATH}Homarr/icons:/app/public/icons
+  #     - ${ARRPATH}Homarr/data:/data
+  #   ports:
+  #     - '7575:7575'
+  #   env_file:
+  #     - '.env'
 
 #      ██╗███████╗██╗     ██╗  ██╗   ██╗███████╗██╗███╗   ██╗
 #      ██║██╔════╝██║     ██║  ╚██╗ ██╔╝██╔════╝██║████╗  ██║
