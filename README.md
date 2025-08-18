@@ -1,4 +1,6 @@
-# arrs
+# homelab-arrs
+
+Own version of https://github.com/automation-avenue/youtube-39-arr-apps-1-click
 
 ### Installation process:
 Make sure you are in the same folder as docker-compose.yml and .env file, then 'up' to deploy, 'stop' and 'rm' to stop and remove the stack  :<br />
