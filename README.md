@@ -1,6 +1,6 @@
 # Arrs media player
 
-Own version of https://github.com/automation-avenue/youtube-39-arr-apps-1-click
+Own version of https://github.com/automation-avenue/youtube-39-arr-apps-1-click 
 All credit for automation-avenue
 
 ### Installation process:
